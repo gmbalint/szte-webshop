@@ -30,7 +30,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    //konstr.
+    //konstruktor
     //nem kéne itt lennie de azért fasza ha van:)
     //megmarad a lehetőség az üresre is.
     //overloading van

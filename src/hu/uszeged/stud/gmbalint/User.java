@@ -1,5 +1,8 @@
 package hu.uszeged.stud.gmbalint;
 
+//az alábbi paraméterekkel rendelkezhet egy vásárló
+//mindegyiknek létrehoztunk gettert és settert
+//a credit értéket csak a webáruhaba való bejelenkezés után emelheti meg
 public class User {
     private String firstName;
     private String lastName;

@@ -5,6 +5,7 @@ import java.util.List;
 
 public abstract class AbstractRepository {
 
+    //nem írhatja felül semelyik öröklődő osztálya
     private final List<User> users = new ArrayList<>();
 
     public void load() {
@@ -29,10 +30,10 @@ public abstract class AbstractRepository {
     }
 
     public void addUser(String firstName, String lastName, String userName, String password) {
-        this.users.add(new User(firstName, lastName, userName, password, 0));
+        this.users.add(new User(firstName, lastName, userName, password,0));
     }
 
-    // csak akkor használjuk, ha tudjuk hogy van ilyen user
+    // csak akkor használjuk, ha tudjuk, hogy van ilyen user
     public User getUser(String userName){
         return this.users.stream().filter(user -> user.getUserName().equals(userName)).findFirst().get();
     }
