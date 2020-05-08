@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="WebshopApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="hu.uszeged.stud.gmbalint.webshop.WebshopApplication" />
+    <module name="webshop" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="hu.uszeged.stud.gmbalint.webshop.entity.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+    </method>
+  </configuration>
+</component>
